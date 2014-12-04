@@ -1,0 +1,198 @@
+html{
+	height: 100%;
+	}
+
+@media (max-device-width: 480px) and (orientation: portrait)  <! mobile>
+{ 
+	#sliderFrame , #slider {display: none;}
+	body {font: 10pt "Trebuchet MS", Helvetica, sans-serif;}
+	nav{display: none;}
+}
+
+@media (max-device-width: 320px) and (orientation: portrait)  <! mobile>
+{ 
+	#sliderFrame , #slider {display: none;}
+	body {font: 10pt "Trebuchet MS", Helvetica, sans-serif;}
+	nav{display: none;}
+}
+
+
+#mobileNav {
+	display: none;
+	}
+
+body{
+	background-color: #7F99B8;
+	color: white;
+    font: 14pt "Trebuchet MS", Helvetica, sans-serif;   
+	margin: 0;
+	}
+
+nav{
+	background-color: #102A49;
+	padding: 1px;
+	}
+	
+nav li{
+	list-style-type: none;
+    display: inline;
+	}
+	
+a{
+    color: white;
+    text-decoration: none;
+    }
+    
+a:hover{
+    text-decoration: none;
+	color: black;
+    }
+    
+a:visited{
+    color: white;
+    text-decoration: none;
+    }
+	
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40pt;
+	color: black;
+	padding-top: 2;
+	}
+
+form {
+    display: block;
+	padding: 2pt;
+	background-color: black;
+	color: #7F99B8;
+	width: 40%;
+	margin: auto;
+}
+
+
+
+<!Id's>
+	
+#menu{
+	float: right;
+	}
+		
+#logo{
+	height: 15%;
+	width: 15%;
+	}
+	
+
+	
+#acc{
+	float: right;
+	padding-right: 20px;
+	}
+	
+#button{
+	color: white;
+	background-color: black;
+	width: 40%;
+	margin: auto;
+	}
+	
+#para{
+	color: white;
+	opacity: 1;
+	}
+	
+#paragraphbg{
+	background-color: black;
+	opacity: 0.3;
+	margin: 10;
+	padding: 5px;
+	}
+	
+#gap{
+	text-align: center;
+	}
+	
+#pg{
+	color: black;
+	background-color: white;
+	opacity: 0.5;
+	width: 60%;
+	height: 100%;
+	margin: auto;
+	float: left;
+	}
+	
+#homemage{
+	float: left;
+}
+
+#d{
+	border: white, 5px;
+	}
+
+#contain{
+	background-color: white;
+	margin: auto;
+	width: 60%;
+	}
+	
+#contain a{
+	color: black;
+	}
+	
+#contain li{
+	list-style-type: none;
+	}
+	
+#mail{
+	text-align: center;
+	color: grey;
+	}
+	
+#media li{
+	display: inline;
+	}
+	
+#username{
+	margin: auto;
+	width: 80%;
+	}
+	
+#login{
+	margin: auto;
+	width: 80%;
+	}
+	
+#z{
+	margin: auto;
+	width: 80%;
+	}
+	
+#buttn{
+	color: white;
+	background-color: black;
+	width: 80%;
+	margin: auto;
+	}
+	
+#bit{
+	width: 90%;
+	padding-left: 5px;
+	text-align: center;
+	}
+	
+#words{
+	width: 80%
+	}
+	
+#dl{
+	text-align: center;
+	}
+	
+#downl{
+	font-size: 30pt;
+	}
+	
+<! Classes >
+
